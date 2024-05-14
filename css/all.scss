@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+//css reset end
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.container {
+  width: 910px;
+  margin: 0 auto;
+  padding: 12px;
+  margin-top: 50px;
+  background-color: #3f5d45;
+  header {
+    width: 886px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 32px;
+    background-color: #eaf0ed;
+    img {
+      width: 298px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: #3f5d45;
+    }
+  }
+  main {
+    width: 886px;
+    height: 409px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 28px 56px;
+    img {
+      width: 176px;
+      height: 353px;
+    }
+    .content {
+      width: 550px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h2 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      p {
+        line-height: 1.4;
+      }
+      ul {
+        display: flex;
+        li {
+          margin-right: 12px;
+          a {
+            color: #3f5d45;
+            font-size: 18px;
+            line-height: 1.4;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
