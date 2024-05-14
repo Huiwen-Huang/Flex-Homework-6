@@ -151,11 +151,17 @@ table {
     img {
       width: 298px;
     }
-    p {
+    a {
       font-size: 18px;
       font-weight: 600;
       line-height: 1.4;
       color: #3f5d45;
+      text-decoration: none;
+      padding: 6px 4px;
+    }
+    :hover {
+      background-color: #3f5d45;
+      color: #eaf0ed;
     }
   }
   main {
@@ -194,6 +200,10 @@ table {
             font-size: 18px;
             line-height: 1.4;
             font-weight: 600;
+          }
+          :hover {
+            background-color: #3f5d45;
+            color: #eaf0ed;
           }
         }
       }

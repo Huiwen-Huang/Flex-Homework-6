@@ -158,11 +158,17 @@ table {
 .container header img {
   width: 298px;
 }
-.container header p {
+.container header a {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.4;
   color: #3f5d45;
+  text-decoration: none;
+  padding: 6px 4px;
+}
+.container header :hover {
+  background-color: #3f5d45;
+  color: #eaf0ed;
 }
 .container main {
   width: 886px;
@@ -203,4 +209,8 @@ table {
   font-size: 18px;
   line-height: 1.4;
   font-weight: 600;
+}
+.container main .content ul li :hover {
+  background-color: #3f5d45;
+  color: #eaf0ed;
 }/*# sourceMappingURL=all.css.map */
